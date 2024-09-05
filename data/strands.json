@@ -1,0 +1,272 @@
+{
+    "strands": [
+        {
+            "id": "abm",
+            "name": "Accountancy, Business, and Management (ABM)",
+            "description": "A detailed description of ABM strand.",
+            "subjects": [
+                "Oral Communication in Context",
+                "Komunikasyon at Pananaliksik sa Wika at Kulturang Pilipino",
+                "General Mathematics",
+                "Earth and Life Science",
+                "Personal Development/Pansariling Kaunlaran",
+                "Understand Culture, Society and Politics",
+                "Physical Education and Health 1",
+                "Physical Education and Health 2",
+                "Physical Education and Health 3",
+                "Physical Education and Health 4",
+                "Reading and Writing Skills",
+                "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik",
+                "Lorenz  My Oppa",
+                "Statistics and Probality",
+                "Physical Science",
+                "21st Century Literature from the Philippines and the World",
+                "Introduction to Philosophy of Human Person",
+                "Contemporary Philippine Arts from the Regions Media and Information Literacy"
+            ],
+            "courses": [
+                "BS Accountancy",
+                "BS Entreprenuership",
+                "BS Accounting Technology",
+                "BS Business Management",
+                "BS Business Administration",
+                "BS Finance",
+                "BS Economics",
+                "BS Customs Administratons",
+                "BS Legal Management",
+                "BS Human Resources Management",
+                "BS Community Development",
+                "BS Hotel and Restaurant Management"
+            ],
+            "links": [
+                {
+                    "type": "Facebook",
+                    "url": "https://www.facebook.com/your-suborg-page"
+                }
+            ],
+            "backgroundImage":"url('images/abm-bg.jpg')"
+        },
+        {
+            "id": "gas",
+            "name": "General Academic Strand (GAS)",
+            "description": "A detailed description of GAS strand.",
+            "subjects": [
+                "Personal Development",
+                "Apllied Economics",
+                "General Mathematics",
+                "Oral Communication Context",
+                "Komunikasyon at Pananaliksik sa Wika at Kulturang Pilipino",
+                "Understand Culture, Society and Politics",
+                "21st Century Literature from the Philippines and the World",
+                "Physical Health",
+                "Introduction to World Religions and Belief Systems",
+                "Earth and Life Science",
+                "Statistics and Probality",
+                "Reading and Writing",
+                "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik",
+                "Pagbabasa at Pagsulat sa Piling Larangan",
+                "Practical Research 1",
+                "English for Academic and Professional Purposes",
+                "Contemporary Philippine Arts from the Region",
+                "Media and Information Literacy",
+                "Physical Science",
+                "Introduction to Philosophy",
+                "Physical Education and Health",
+                "Practical Research 2",
+                "Entreprenuership",
+                "Creative Writing",
+                "Philippine Politics and Governance",
+                "Empowerment Technology",
+                "Inquiries, Investigation and Immersion",
+                "Organization and Management",
+                "Business Math",
+                "Disaster Risk Reduction",
+                "Work Immersion",
+                "Precalculus",
+                "General Chemistry",
+                "General Biology",
+                "Elective Subejects"
+            ],
+            "courses": [
+                "Bachelor of General Education",
+                "Bachelor of Elementary Education",
+                "Bachelor of Early Childhoon Education",
+                "Bachelor of Special Needs Education",
+                "Bachelor of Secondary Education",
+                "BS Environmental Management",
+                "BSBA Operations Management",
+                "BA Management Economics",
+                "BS Management Information System",
+                "BS Applied Economics"
+            ],
+            "links": [
+                {
+                    "type": "Facebook",
+                    "url": "https://www.facebook.com/your-suborg-page"
+                }
+            ],
+            "backgroundImage":"url('images/gas-bg.png')"
+        },
+        {
+            "id": "humss",
+            "name": "Humanities and Social Sciences (HUMSS)",
+            "description": "A detailed description of HUMSS strand.",
+            "subjects": [
+                "Personal Development",
+                "General Mathematics",
+                "Oral Communication Context",
+                "Komunikasyon at Pananaliksik sa Wika at Kulturang Pilipino",
+                "Understand Culture, Society and Politics",
+                "21st Century Literature from the Philippines and the World",
+                "Physical Health",
+                "Introduction to World Religions and Belief Systems",
+                "Earth and Life Science",
+                "Statistics and Probality",
+                "Reading and Writing",
+                "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik",
+                "Practical Research 1",
+                "English for Academic and Professional Purposes",
+                "Discipline and Ideas in Social Sciences",
+                "Trends, Network and Critical Thinking in the 21st Century Culture",
+                "Contemporary Philippine Arts from the Region",
+                "Media and Information Literacy",
+                "Physical Science",
+                "Introduction to Philosophy of Human Person",
+                "Physical Education and Health ",
+                "Practical Research 2",
+                "Entreprenuership",
+                "Filipino sa Piling Larangan",
+                "Creative Writing",
+                "Philippine Politics and Governance",
+                "Discipline and Ideas in Applied Social Sciences",
+                "Empowerment Technology",
+                "Inquiries, Investigation and Immersion",
+                "Creative Nonfiction",
+                "Community Engagement, Soliditary and Citizenship"
+            ],
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ],
+            "links": [
+                {
+                    "type": "Facebook",
+                    "url": "https://www.facebook.com/your-suborg-page"
+                }
+            ],
+            "backgroundImage":"url('images/humss-bg.png')"
+        },
+        {
+            "id": "he",
+            "name": "Home Economics (HE)",
+            "description": "A detailed description of HE strand.",
+            "subjects": [
+                "Oral Communication",
+                "Komunikasyon at Pananaliksik sa Wika at Kulturang Pilipino",
+                "General Mathematics",
+                "Earth and Life Science",
+                "Personal Development",
+                "Introduction to Philosophy of Human Person",
+                "Physical Education and Health 1",
+                "Cookery 1",
+                "Cookery 2",
+                "Reading and Writing",
+                "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik",
+                "Statistics and Probality",
+                "Physical Education and Health 2",
+                "English for Academic and Professional Purposes",
+                "Practical Research 1",
+                "Empowerment Technology",
+                "Cookery 3",
+                "Cookery 4",
+                "21st Century Literature from the Philippines and the World",
+                "Physical Science",
+                "Physical Education and Health 3",
+                "Practical Research 2",
+                "Pagsulat sa Filipino sa Larangan ng Techvoc",
+                "Entreprenuership",
+                "Bread and Pastry Production 1",
+                "Bread and Pastry Produciton 2"
+            ],
+            "courses": [
+                "Lorenz my one and only oppa",
+                "Jhunyzdwynegrapo1234569",
+                "Jamesmatoy420"
+            ],
+            "links": [
+                {
+                    "type": "Facebook",
+                    "url": "https://www.facebook.com/your-suborg-page"
+                }
+            ],
+            "backgroundImage":"url('images/he-bg.png')"
+        },
+        {
+            "id": "stem",
+            "name": "Science and Technology, Engineering, and Mathematics (STEM)",
+            "description": "A detailed description of STEM strand.",
+            "subjects": [
+                "Oral Communication Context",
+                "Komunikasyon at Pananaliksik sa Wika at Kulturang Pilipino",
+                "General Mathematics",
+                "21st Century Literature from the Philippines and the World",
+                "Personal Development",
+                "Physical Education and Health",
+                "English and Writing Skills",
+                "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik",
+                "Understand Culture, Society and Politics",
+                "Philosophy",
+                "Earth Science",
+                "Physical Education and Health",
+                "Contemporary Philippine Arts from the Region",
+                "Disaster Readiness and Risk Reduction",
+                "Physical Education and Health"
+            ],
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ],
+            "links": [
+                {
+                    "type": "Facebook",
+                    "url": "https://www.facebook.com/your-suborg-page"
+                }
+            ],
+            "backgroundImage":"url('images/stem-bg.png')"
+        },
+        {
+            "id": "ict",
+            "name": "Information and Communication Technology (ICT)",
+            "description": "A detailed description of ICT strand.",
+            "subjects": [
+                "Earth and Life",
+                "Understand Culture, Society and Politics",
+                "Physical Education 1",
+                "Reading and Writing",
+                "Statistics and Probality",
+                "Physical Science",
+                "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik",
+                "Physical Education 2",
+                "21st Century",
+                "General Mathematics",
+                "Practical Research",
+                "Oral Communication in Context",
+                "Media and Information Literacy"
+            ],
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ],
+            "links": [
+                {
+                    "type": "Facebook",
+                    "url": "https://www.facebook.com/your-suborg-page"
+                }
+            ],
+            "backgroundImage":"url('images/ict-bg.jpg')"
+        }
+    ]
+}
