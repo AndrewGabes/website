@@ -1,0 +1,206 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+/* Header Styles */
+
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 400px auto;
+    padding: 0 20px;
+    flex-grow: 1;
+}
+
+/* Strand Container Styles */
+#strand-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Space between cards */
+    justify-content: center; /* Center align cards */
+}
+
+/* Strand Card Link Styles */
+.strand-card-link {
+    text-decoration: none;
+    color: inherit;
+    flex: 1 1 calc(33.333% - 20px); /* Adjust width of cards, 3 cards per row */
+    max-width: calc(33.333% - 20px); /* Ensure cards fit within the container */
+}
+
+/* Strand Card Styles */
+.strand-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure content is spaced evenly */
+    height: 400px; /* Fixed height for consistency */
+}
+
+.strand-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(255, 255, 255, 0.2);
+}
+
+.strand-title {
+    font-size: 1.8em;
+    color: #f0f0f0;
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
+    font-weight: 600;
+}
+
+.strand-description {
+    font-size: 1.1em;
+    color: #e9e9e9;
+    margin-top: 0; /* Adjust margin to match title spacing */
+    margin-bottom: 10px; /* Match bottom margin to title */
+    padding: 0; /* Remove padding to align with title */
+    line-height: 1.4; /* Adjust line height for readability */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1f2937;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .strand-card {
+        padding: 20px;
+        height: auto; /* Allow height to adjust for small screens */
+    }
+
+    .strand-title {
+        font-size: 1.5em;
+    }
+
+    #strand-container {
+        flex-direction: column; /* Stack cards vertically on small screens */
+        align-items: center;
+    }
+
+    .strand-card-link {
+        flex: 1 1 100%; /* Full width for cards on small screens */
+        max-width: 100%;
+    }
+}
+
+/* Guides and Resources Section */
+.guides-resources {
+    background: linear-gradient( to top, #1d4ed8, #000000);
+    padding: 200px 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    text-align: center;
+}
+
+.guides-resources h2 {
+    font-size: 2em;
+    color: #1d4ed8;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.guides-resources p {
+    font-size: 1.2em;
+    color: #dbdbdb;
+    margin-bottom: 40px;
+}
+
+.resource {
+    margin-bottom: 20px;
+}
+
+.resource h3 {
+    font-size: 1.5em;
+    color: #3b82f6;
+    margin-bottom: 10px;
+}
+
+.resource a {
+    font-size: 1.1em;
+    color: #1d4ed8;
+    text-decoration: none;
+    background-color: #e0f2fe;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.resource a:hover {
+    background-color: #93c5fd;
+    transform: translateY(-3px);
+}
+
+/* Hero Banner Styles */
+.hero-banner {
+    height: 100vh;
+    background: linear-gradient(to bottom, #1d4ed8, #000000);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-banner h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.hero-banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+#explore-button {
+    background-color: #ffffff;
+    color: #3b82f6;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#explore-button:hover {
+    background-color: #e0f2fe;
+    transform: translateY(-5px);
+}   
+
