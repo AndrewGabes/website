@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: 700;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    flex-grow: 1;
+}
+
+/* Strand Details Container */
+.strand-details {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+}
+
+/* Strand Title */
+#strand-name {
+    font-size: 2em;
+    color: #1d4ed8;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Strand Description */
+.strand-description {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Subjects Section */
+.strand-subjects {
+    margin-bottom: 20px;
+}
+
+.subjects-button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subjects-button:hover {
+    background-color: #2563eb;
+}
+
+.subjects-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    display: none;
+}
+
+.subjects-list li {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* College Courses Section */
+.strand-courses {
+    margin-bottom: 20px;
+}
+
+.strand-courses ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.strand-courses li {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Related Links Section */
+.strand-links {
+    margin-bottom: 20px;
+}
+
+.strand-links a {
+    color: #1d4ed8;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.strand-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1f2937;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .strand-details {
+        padding: 20px;
+    }
+
+    .subjects-button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+
+    .strand-title {
+        font-size: 1.6em;
+    }
+}
+
+
+/* Strand Details Page Styles */
+#strand-header {
+    background-size: cover;
+    background-position: center;
+    height: 150px; /* Adjust this height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#strand-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Additional styling for the page content */
+.strand-details {
+    padding: 20px;
+}
