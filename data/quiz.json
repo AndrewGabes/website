@@ -1,0 +1,44 @@
+{
+    "questions": [
+      {
+        "id": "interests",
+        "question": "What are your main areas of interest?",
+        "type": "checkbox", 
+        "choices": [
+          { "text": "Technology", "strands": ["ICT", "STEM"] },
+          { "text": "Business", "strands": ["ABM", "STEM"] },
+          { "text": "Science", "strands": ["STEM"] },
+          { "text": "Arts and Humanities", "strands": ["HUMSS"] },
+          { "text": "Sports", "strands": ["GAS"] },
+          { "text": "Entrepreneurship", "strands": ["ABM"] }
+        ]
+      },
+      {
+        "id": "skills",
+        "question": "What skills do you possess or want to develop?",
+        "type": "checkbox",
+        "choices": [
+          { "text": "Mathematics", "strands": ["STEM", "ABM"] },
+          { "text": "Communication", "strands": ["HUMSS", "ABM"] },
+          { "text": "Critical Thinking", "strands": ["STEM", "GAS"] },
+          { "text": "Problem Solving", "strands": ["STEM", "ICT"] },
+          { "text": "Leadership", "strands": ["ABM", "HUMSS"] },
+          { "text": "Innovation", "strands": ["ICT", "STEM"] }
+        ]
+      },
+      {
+        "id": "career-goal",
+        "question": "What career path do you see yourself pursuing?",
+        "type": "radio",
+        "choices": [
+          { "text": "Engineer", "strands": ["STEM"] },
+          { "text": "Accountant", "strands": ["ABM"] },
+          { "text": "Scientist", "strands": ["STEM"] },
+          { "text": "Business Owner", "strands": ["ABM"] },
+          { "text": "Artist", "strands": ["HUMSS"] },
+          { "text": "Teacher", "strands": ["HUMSS"] }
+        ]
+      }
+    ]
+  }
+  
