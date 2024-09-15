@@ -33,4 +33,4 @@ document.addEventListener('DOMContentLoaded', () => {
             
         })
         .catch(error => console.error('Error fetching strand data:', error));
-});
+});     

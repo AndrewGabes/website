@@ -38,6 +38,31 @@
           { "text": "Artist", "strands": ["HUMSS"] },
           { "text": "Teacher", "strands": ["HUMSS"] }
         ]
+      },
+      {
+        "id": "career-goal",
+        "question": "Unsay lami nga strand",
+        "type": "radio",
+        "choices": [
+          { "text": "stem", "strands": ["STEM"] },
+          { "text": "abm", "strands": ["ABM"] },
+          { "text": "ict", "strands": ["ICT"] },
+          { "text": "gas", "strands": ["gas"] },
+          { "text": "humss", "strands": ["HUMSS"] },
+          { "text": "he", "strands": ["HE"] }
+        ]
+      },{
+        "id": "career-goal",
+        "question": "What career path do you see yourself pursuing?",
+        "type": "radio",
+        "choices": [
+          { "text": "Engineer", "strands": ["STEM"] },
+          { "text": "Accountant", "strands": ["ABM"] },
+          { "text": "Scientist", "strands": ["STEM"] },
+          { "text": "Business Owner", "strands": ["ABM"] },
+          { "text": "Artist", "strands": ["HUMSS"] },
+          { "text": "Teacher", "strands": ["HUMSS"] }
+        ]
       }
     ]
   }
