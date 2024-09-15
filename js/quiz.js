@@ -55,6 +55,7 @@ document.getElementById('next-btn').addEventListener('click', () => {
         showResults();
     }
 });
+
 function showResults() {
     const resultContainer = document.getElementById('result-container');
     const resultList = document.getElementById('result-list');
@@ -137,3 +138,4 @@ function getRecommendationMessage(strand, percentage) {
     };
     return recommendations[strand] || `The ${strand} strand seems to be a strong choice for you, with ${percentage}% interest!`;
 }
+
