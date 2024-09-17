@@ -55,7 +55,7 @@
                     "url": "https://www.facebook.com/your-suborg-page"
                 }
             ],
-            "backgroundImage":"url('images/abm-bg.jpg')"
+            "backgroundImage":"url('images/abm.png')"
         },
         {
             "id": "gas",
@@ -110,7 +110,7 @@
                     "url": "https://www.facebook.com/your-suborg-page"
                 }
             ],
-            "backgroundImage":"url('images/gas-bg.png')"
+            "backgroundImage":"url('images/gas.png')"
         },
         {
             "id": "humss",
@@ -158,7 +158,7 @@
                     "url": "https://www.facebook.com/your-suborg-page"
                 }
             ],
-            "backgroundImage":"url('images/humss-bg.png')"
+            "backgroundImage":"url('images/humss.png')"
         },
         {
             "id": "he",
@@ -206,7 +206,7 @@
                     "url": "https://www.facebook.com/your-suborg-page"
                 }
             ],
-            "backgroundImage":"url('images/he-bg.png')"
+            "backgroundImage":"url('images/he.png')"
         },
         {
             "id": "stem",
@@ -254,7 +254,7 @@
                     "url": "https://www.facebook.com/your-suborg-page"
                 }
             ],
-            "backgroundImage":"url('images/stem-bg.png')"
+            "backgroundImage":"url('images/stem.png')"
         },
         {
             "id": "ict",
@@ -302,7 +302,7 @@
                     "url": "https://www.facebook.com/your-suborg-page"
                 }
             ],
-            "backgroundImage":"url('images/ict-bg.png')"
+            "backgroundImage":"url('images/ict.png')"
         },
         {
             "id": "maritime",
@@ -350,7 +350,7 @@
                     "url": "https://www.facebook.com/JhunyzGwapo14343"
                 }
             ],
-            "backgroundImage":"url('images/ict-bg.jpg')"
+            "backgroundImage":"url('images/ict.jpg')"
         }
     ]
 }

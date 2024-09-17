@@ -57,6 +57,7 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* Label styles for the quiz */
 label {
     display: flex;
     align-items: center;
@@ -111,107 +112,90 @@ footer {
     width: 100%;
 }
 
+#result-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #e9f5ff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#result-left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#result-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#strand-card {
+    padding: 20px; /* Reduced padding */
+    font-size: 26px; /* Increase general font size */
+    width: 300px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #0366d6;
+    border-radius: 10px;
+    color: white;
+}
+
+#strand-card h3 {
+    font-size: 36px; /* Increased title size to cover more space */
+    margin: 0; /* Remove margin to make the text more compact */
+}
+
+#strand-card .btn {
+    font-size: 18px; /* Slightly larger font for the button */
+    padding: 12px 20px; /* Adjusted padding for a more prominent button */
+    margin-top: auto; /* Ensures the button stays at the bottom */
+}
+
+
+#strand-card .btn:hover {
+    background-color: #024ea2;
+}
+    
+
+#result-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    max-width: 450px; /* Increased from 300px */
+    max-height: 450px; /* Increased from 300px */
+    width: 100%;
+}
+
+
 /* Responsive Design */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 1.5em;
+@media screen and (max-width: 768px) {
+    #result-container {
+        flex-direction: column;
+        align-items: center;
     }
 
-    header p {
-        font-size: 1em;
+    #result-left {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 
-    #quiz-container, #result-container {
-        padding: 20px;
-        margin: 10px;
+    canvas {
+        max-width: 250px;
+        max-height: 250px;
     }
-
-    #next-btn {
-        padding: 10px 20px;
-        font-size: 16px;
-    }
-
-    #result-list li {
-        font-size: 1em;
-    }
-}
-
-/* Result container styles */
-#result-container {
-    background-color: #ffffff; /* White background */
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    max-width: 700px;
-    margin: 20px auto;
-    text-align: center;
-    display: none;
-}
-
-#result-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-#result-list li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 6px;
-}
-
-.result-label {
-    font-size: 1.2em;
-    color: #333;
-}
-
-.result-bar {
-    height: 25px;
-    background-color: #007BFF; /* Bar color */
-    border-radius: 5px;
-    transition: width 0.4s ease-in-out;
-}
-
-/* Result container styles */
-#result-container {
-    background-color: #ffffff; /* White background */
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    max-width: 700px;
-    margin: 20px auto;
-    text-align: center;
-    display: none;
-}
-
-#result-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-#result-list li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 6px;
-}
-
-.result-label {
-    font-size: 1.2em;
-    color: #333;
-}
-
-.result-bar {
-    height: 25px;
-    background-color: #007BFF; /* Bar color */
-    border-radius: 5px;
-    transition: width 0.4s ease-in-out;
 }

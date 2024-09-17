@@ -23,9 +23,27 @@
 
         <!-- Result Container (initially hidden) -->
         <div id="result-container" style="display: none;">
-            <h2>Your Recommended Strands</h2>
-            <ul id="result-list"></ul>
+            <div id="result-left">
+                <h2>Your recommended strand is: <span id="recommended-strand"></span></h2>
+                <p id="recommendation-text">Explanation goes here...</p>
+            </div>
+            <div id="result-right">
+                <!-- Pie chart will be inserted here -->
+                <canvas id="pie-chart"></canvas>
+            </div>
         </div>
+        
+        <!-- Strand Card (initially hidden) -->
+        <!-- Wrapped the strand card in a clickable <a> tag -->
+        <!-- Add a link wrapper for the strand card -->
+        <!-- Strand Card (initially hidden) -->
+    <a id="strand-link" style="display: none;">
+        <div class="strand-card" id="strand-card" style="background-image: none;">
+            <!-- Strand name will be inserted dynamically -->
+        </div>
+    </a>
+
+        
     </main>
 
     <footer>
@@ -33,5 +51,7 @@
     </footer>
 
     <script src="js/quiz.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </body>
 </html>
