@@ -164,8 +164,8 @@ footer p {
 /* Hero Banner Styles */
 .hero-banner {
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), #000000), /* This is the black fade effect */
-                url('../images/hero.png') no-repeat center center/cover; /* Corrected path */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), #000000), 
+                url('../images/hero.png') no-repeat center center/cover;
     color: white;
     display: flex;
     flex-direction: column;
@@ -173,8 +173,28 @@ footer p {
     align-items: center;
     text-align: center;
     padding: 0 20px;
+    position: relative; /* To allow absolute positioning for the logo */
 }
 
+/* Logo and Site Name on the Left */
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.site-logo {
+    width: 50px; /* Adjust size of the logo */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.site-name {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #ffffff; /* White text to match the hero banner */
+}
 
 .hero-banner h1 {
     font-size: 3em;
@@ -203,7 +223,18 @@ footer p {
 #explore-button:hover {
     background-color: #e0f2fe;
     transform: translateY(-5px);
-}   
+}
+
+/* Responsive Design for the logo */
+@media (max-width: 768px) {
+    .site-logo {
+        width: 40px; /* Adjust for smaller screens */
+    }
+    .site-name {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+}
+    
 
 .quiz-section {
     background-color: #1d4ed8;
@@ -247,4 +278,9 @@ footer p {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+#logo {
+    width: 200px;
+    length: 200px;
 }

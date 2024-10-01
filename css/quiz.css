@@ -1,20 +1,28 @@
-/* General styles */
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #f0f2f5; /* Light background */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
 /* Header styles */
 header {
-    background-color: #007BFF; /* Blue background */
+    background-color: #007BFF;
     color: white;
-    text-align: center;
+    display: flex;
+    align-items: center;
     padding: 20px;
+    position: relative;
+}
+
+#logo-link {
+    display: flex;
+    align-items: center;
+    position: absolute; /* Place the logo in an absolute position */
+    left: 20px; /* Adjust distance from the left */
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+}
+
+.header-content {
+    margin: 0 auto; /* This will center the header content */
+    text-align: center;
 }
 
 header h1 {
@@ -27,6 +35,7 @@ header p {
     margin-top: 10px;
 }
 
+
 /* Main content styles */
 main {
     flex: 1;
@@ -37,7 +46,7 @@ main {
 }
 
 #quiz-container {
-    background-color: #ffffff; /* White background for quiz container */
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 30px;
@@ -48,8 +57,11 @@ main {
 }
 
 #quiz-container:hover {
-    transform: scale(1.02); /* Slight scale effect on hover */
+    transform: scale(1.02);
 }
+
+/* ... rest of your CSS remains the same ... */
+
 
 h2 {
     font-size: 1.8em;

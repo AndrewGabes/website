@@ -13,9 +13,21 @@ body {
 header {
     background-color: #1e3a8a;
     color: white;
-    padding: 60px 20px;
-    text-align: center;
-    position: relative;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header #logo-link {
+    display: flex;
+    align-items: center;
+}
+
+header img#logo {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
 }
 
 header h1 {
@@ -23,6 +35,8 @@ header h1 {
     margin: 0;
     font-weight: 700;
     letter-spacing: 0.05em;
+    text-align: center;
+    flex-grow: 1;
 }
 
 /* Main Content Styles */
@@ -72,12 +86,7 @@ main {
     color: #1e3a8a;
     border-radius: 30px;
     margin: 0 10px;
-    transition: all 0.3s ease;
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Adds space between buttons */
-    margin-top: 20px; /* Adds space between header and tabs */
-    margin-bottom: 20px; /* Adds space between tabs and content */
+    transition: all 0.3s ease;  
 }
 
 .tab-buttons button:hover {
@@ -100,44 +109,6 @@ main {
     display: block;
 }
 
-/* Subjects and Courses Section */
-.strand-subjects,
-.strand-courses,
-.strand-links {
-    margin-bottom: 30px;
-}
-
-.strand-subjects ul,
-.strand-courses ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.strand-subjects li,
-.strand-courses li {
-    background-color: #f3f4f6;
-    border-radius: 12px;
-    padding: 15px;
-    margin-bottom: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-    font-size: 1.1em;
-}
-
-.strand-links a {
-    display: block;
-    color: #1e3a8a;
-    text-decoration: none;
-    font-size: 1.15em;
-    margin-bottom: 10px;
-    transition: color 0.3s ease;
-}
-
-.strand-links a:hover {
-    color: #4338ca;
-    text-decoration: underline;
-}
-
 /* Footer Styles */
 footer {
     background-color: #1e3a8a;
@@ -151,11 +122,18 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     header {
-        padding: 40px 20px;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img#logo {
+        width: 100px;
     }
 
     header h1 {
         font-size: 1.8em;
+        text-align: center;
     }
 
     .strand-details {
@@ -170,9 +148,4 @@ footer {
     #strand-name {
         font-size: 1.8em;
     }
-}
-
-#strand-name,
-#strand-description {
-    display: none;
 }
