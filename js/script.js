@@ -26,6 +26,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 strandCardLink.appendChild(strandCard);
                 strandContainer.appendChild(strandCardLink);
             });
+
+            document.querySelectorAll('nav a').forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+            
+
             // Smooth scroll to strand-container when "Explore Strands" is clicked
             document.getElementById('explore-button').addEventListener('click', () => {
                 document.getElementById('strand-container').scrollIntoView({ behavior: 'smooth' });
