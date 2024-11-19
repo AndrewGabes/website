@@ -7,6 +7,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
 }
 
 /* Header Styles */
@@ -147,5 +151,358 @@ footer {
 
     #strand-name {
         font-size: 1.8em;
+    }
+}
+
+/* Roadmap Section */
+.roadmap {
+    margin: 20px 0;
+    text-align: center;
+    background: #f0f4f8;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.timeline-item {
+    text-align: center;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item h3 {
+    color: #1e3a8a;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Collapsible Sections */
+.collapsible h4 {
+    cursor: pointer;
+    background: #1e3a8a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background 0.3s;
+}
+
+.collapsible h4:hover {
+    background: #3b82f6;
+}
+
+.collapsible ul {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+    display: none;
+}
+
+.collapsible.active ul {
+    display: block;
+}
+
+/* Spacing adjustment between header and tabs */
+.tab-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Smooth fade-in effect for tabs */
+.tabcontent {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Grade Section Styling */
+.grade-section {
+    margin-bottom: 20px;
+}
+
+.grade-section h3 {
+    font-size: 1.5em;
+    color: #1e3a8a;
+    margin-bottom: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Semester Section Styling */
+.semester-section {
+    margin-bottom: 15px;
+}
+
+.semester-section h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Subject List Styling */
+.semester-section ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.semester-section ul li {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.tab-buttons button.careers-tab {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: bold;
+}
+
+.tab-buttons button.careers-tab:hover {
+    background-color: #2563eb;
+}
+
+.tabcontent {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease-in-out;
+}
+
+.tabcontent.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.collapsible h4 {
+    cursor: pointer;
+    background: linear-gradient(90deg, #1e3a8a, #2563eb);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.collapsible h4:hover {
+    background: linear-gradient(90deg, #2563eb, #1e3a8a);
+    transform: scale(1.02);
+}
+
+.collapsible ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: none;
+    background-color: #f0f4f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.collapsible.active ul {
+    display: block;
+}
+
+.job-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.job-tags span {
+    background-color: #e0e7ff;
+    color: #1e3a8a;
+    font-size: 0.9em;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.job-tags span:hover {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+.navbar {
+    background-color: #1e3a8a;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    display: block;
+    transition: background 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #2563eb;
+    border-radius: 5px;
+}
+
+.navbar ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1e3a8a;
+    padding: 10px 0;
+    display: none;
+    list-style: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul li:hover ul {
+    display: block;
+}
+
+.navbar ul li ul li a {
+    padding: 8px 15px;
+    white-space: nowrap;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #1e3a8a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    display: block;
+    transition: background 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #2563eb;
+    border-radius: 5px;
+}
+
+.navbar ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1e3a8a;
+    padding: 10px 0;
+    display: none;
+    list-style: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul li:hover ul {
+    display: block;
+}
+
+.navbar ul li ul li a {
+    padding: 8px 15px;
+    white-space: nowrap;
+}
+
+/* Logo */
+#logo-link {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
+
+/* General Navigation Styles */
+.navbar {
+    background-color: #1e3a8a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul.main-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    display: block;
+    transition: background 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #2563eb;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #menu-toggle {
+        padding: 8px 16px;
+    }
+
+    #side-menu {
+        width: 250px;
     }
 }

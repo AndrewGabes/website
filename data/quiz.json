@@ -1,69 +1,126 @@
 {
-    "questions": [
-      {
-        "id": "interests",
-        "question": "What are your main areas of interest?",
-        "type": "checkbox", 
-        "choices": [
-          { "text": "Technology", "strands": ["ICT", "STEM"] },
-          { "text": "Business", "strands": ["ABM", "STEM"] },
-          { "text": "Science", "strands": ["STEM"] },
-          { "text": "Arts and Humanities", "strands": ["HUMSS"] },
-          { "text": "Sports", "strands": ["GAS"] },
-          { "text": "Entrepreneurship", "strands": ["ABM"] }
-        ]
-      },
-      {
-        "id": "skills",
-        "question": "What skills do you possess or want to develop?",
-        "type": "checkbox",
-        "choices": [
-          { "text": "Mathematics", "strands": ["STEM", "ABM"] },
-          { "text": "Communication", "strands": ["HUMSS", "ABM"] },
-          { "text": "Critical Thinking", "strands": ["STEM", "GAS"] },
-          { "text": "Problem Solving", "strands": ["STEM", "ICT"] },
-          { "text": "Leadership", "strands": ["ABM", "HUMSS"] },
-          { "text": "Innovation", "strands": ["ICT", "STEM"] }
-        ]
-      },
-      {
-        "id": "career-goal",
-        "question": "What career path do you see yourself pursuing?",
-        "type": "radio",
-        "choices": [
-          { "text": "Engineer", "strands": ["STEM"] },
-          { "text": "Accountant", "strands": ["ABM"] },
-          { "text": "Scientist", "strands": ["STEM"] },
-          { "text": "Business Owner", "strands": ["ABM"] },
-          { "text": "Artist", "strands": ["HUMSS"] },
-          { "text": "Teacher", "strands": ["HUMSS"] }
-        ]
-      },
-      {
-        "id": "career-goal",
-        "question": "Unsay lami nga strand",
-        "type": "radio",
-        "choices": [
-          { "text": "stem", "strands": ["STEM"] },
-          { "text": "abm", "strands": ["ABM"] },
-          { "text": "ict", "strands": ["ICT"] },
-          { "text": "gas", "strands": ["gas"] },
-          { "text": "humss", "strands": ["HUMSS"] },
-          { "text": "he", "strands": ["HE"] }
-        ]
-      },{
-        "id": "career-goal",
-        "question": "What career path do you see yourself pursuing?",
-        "type": "radio",
-        "choices": [
-          { "text": "Engineer", "strands": ["STEM"] },
-          { "text": "Accountant", "strands": ["ABM"] },
-          { "text": "Scientist", "strands": ["STEM"] },
-          { "text": "Business Owner", "strands": ["ABM"] },
-          { "text": "Artist", "strands": ["HUMSS"] },
-          { "text": "Teacher", "strands": ["HUMSS"] }
-        ]
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "id": "interests",
+      "question": "What are your main areas of interest?",
+      "type": "checkbox",
+      "choices": [
+        { "text": "Technology", "strands": ["ICT", "STEM"] },
+        { "text": "Business", "strands": ["ABM", "STEM"] },
+        { "text": "Science", "strands": ["STEM"] },
+        { "text": "Arts and Humanities", "strands": ["HUMSS"] },
+        { "text": "Sports", "strands": ["GAS", "MARITIME"] },
+        { "text": "Entrepreneurship", "strands": ["ABM"] },
+        { "text": "Navigation and Marine Sciences", "strands": ["MARITIME"] }
+      ]
+    },
+    {
+      "id": "skills",
+      "question": "What skills do you possess or want to develop?",
+      "type": "checkbox",
+      "choices": [
+        { "text": "Mathematics", "strands": ["STEM", "ABM", "MARITIME"] },
+        { "text": "Communication", "strands": ["HUMSS", "ABM"] },
+        { "text": "Critical Thinking", "strands": ["STEM", "GAS"] },
+        { "text": "Problem Solving", "strands": ["STEM", "ICT", "MARITIME"] },
+        { "text": "Leadership", "strands": ["ABM", "HUMSS", "MARITIME"] },
+        { "text": "Innovation", "strands": ["ICT", "STEM"] }
+      ]
+    },
+    {
+      "id": "career-goals",
+      "question": "What career path do you see yourself pursuing?",
+      "type": "radio",
+      "choices": [
+        { "text": "Engineer", "strands": ["STEM"] },
+        { "text": "Accountant", "strands": ["ABM"] },
+        { "text": "Scientist", "strands": ["STEM"] },
+        { "text": "Business Owner", "strands": ["ABM"] },
+        { "text": "Artist", "strands": ["HUMSS"] },
+        { "text": "Teacher", "strands": ["HUMSS"] },
+        { "text": "Seafarer", "strands": ["MARITIME"] }
+      ]
+    },
+    {
+      "id": "environment",
+      "question": "Which work environment do you prefer?",
+      "type": "radio",
+      "choices": [
+        { "text": "Office", "strands": ["ABM", "HUMSS", "ICT"] },
+        { "text": "Laboratory", "strands": ["STEM"] },
+        { "text": "Outdoor", "strands": ["GAS", "MARITIME"] },
+        { "text": "Creative Studio", "strands": ["HUMSS"] },
+        { "text": "At Sea", "strands": ["MARITIME"] }
+      ]
+    },
+    {
+      "id": "hobbies",
+      "question": "What hobbies do you enjoy?",
+      "type": "checkbox",
+      "choices": [
+        { "text": "Coding or Gaming", "strands": ["ICT"] },
+        { "text": "Reading or Writing", "strands": ["HUMSS"] },
+        { "text": "Playing Sports", "strands": ["GAS", "MARITIME"] },
+        { "text": "Entrepreneurial Activities", "strands": ["ABM"] },
+        { "text": "Exploring Science Projects", "strands": ["STEM"] }
+      ]
+    },
+    {
+      "id": "teamwork",
+      "question": "Do you prefer working in a team or individually?",
+      "type": "radio",
+      "choices": [
+        { "text": "Team", "strands": ["ABM", "MARITIME", "GAS"] },
+        { "text": "Individual", "strands": ["ICT", "HUMSS", "STEM"] },
+        { "text": "Both", "strands": ["GAS"] }
+      ]
+    },
+    {
+      "id": "subjects",
+      "question": "What school subjects do you excel in or enjoy?",
+      "type": "checkbox",
+      "choices": [
+        { "text": "Mathematics", "strands": ["STEM", "MARITIME"] },
+        { "text": "Science", "strands": ["STEM", "MARITIME"] },
+        { "text": "English or Literature", "strands": ["HUMSS"] },
+        { "text": "Business Studies", "strands": ["ABM"] },
+        { "text": "Computer Studies", "strands": ["ICT"] }
+      ]
+    },
+    {
+      "id": "future-goals",
+      "question": "What is your long-term goal?",
+      "type": "radio",
+      "choices": [
+        { "text": "Becoming a professional in a specialized field", "strands": ["STEM"] },
+        { "text": "Starting my own business", "strands": ["ABM"] },
+        { "text": "Helping others through service or teaching", "strands": ["HUMSS"] },
+        { "text": "Exploring opportunities at sea", "strands": ["MARITIME"] },
+        { "text": "Developing innovative solutions", "strands": ["ICT"] }
+      ]
+    },
+    {
+      "id": "values",
+      "question": "What values guide you most in choosing a career?",
+      "type": "checkbox",
+      "choices": [
+        { "text": "Innovation", "strands": ["ICT", "STEM"] },
+        { "text": "Service to Others", "strands": ["HUMSS"] },
+        { "text": "Adventure", "strands": ["GAS", "MARITIME"] },
+        { "text": "Leadership", "strands": ["ABM"] },
+        { "text": "Achievement", "strands": ["STEM", "ABM"] }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "question": "What lifestyle best suits you?",
+      "type": "radio",
+      "choices": [
+        { "text": "Structured and predictable", "strands": ["ABM", "ICT"] },
+        { "text": "Creative and flexible", "strands": ["HUMSS", "GAS"] },
+        { "text": "Active and adventurous", "strands": ["MARITIME", "GAS"] },
+        { "text": "Intellectual and research-oriented", "strands": ["STEM"] }
+      ]
+    }
+  ]
+}

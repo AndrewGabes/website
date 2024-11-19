@@ -306,8 +306,8 @@
         },
         {
             "id": "maritime",
-            "name": "DWYNE JHUNYZ BLANCIA",
-            "description": "A detailed description of dwyne hahahaha strand.",
+            "name": "MARITIME (MT)",
+            "description": "A detailed description of the maritime strand.",
             "subjects": {
                 "grade11": {
                     "firstSemester": [
@@ -350,7 +350,7 @@
                     "url": "https://www.facebook.com/JhunyzGwapo14343"
                 }
             ],
-            "backgroundImage":"images/ict.jpg"
+            "backgroundImage":"images/marine.png"
         }
     ]
 }

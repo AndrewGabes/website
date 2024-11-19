@@ -8,62 +8,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header will now display the logo on the left and strand name in the center -->
-    <header id="strand-header">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
         <a href="index.html" id="logo-link">
             <img src="images/logo.png" alt="UCLM Logo" id="logo">
         </a>
-        <h1 id="strand-title">Strand Details</h1>
-    </header>
-    
-    <!-- Tab buttons below header -->
-    <div class="tab-buttons">
-        <button class="tablinks" onclick="openTab(event, 'subjects-tab')">Subjects</button>
-        <button class="tablinks" onclick="openTab(event, 'courses-tab')">College Courses</button>
-        <button class="tablinks" onclick="openTab(event, 'links-tab')">Related Links</button>
-    </div>
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quiz.html">Take a Quiz</a></li>
+        </ul>
+    </nav>
 
+    
+
+    <!-- Strand Details -->
     <main>
         <div class="strand-details" id="strand-details">
             <h2 id="strand-name"></h2>
             <p class="strand-description" id="strand-description"></p>
 
-            <!-- Tab content -->
-            <div class="tab-content">
-                <!-- Subjects Tab -->
-                <div id="subjects-tab" class="tabcontent">
-                    <h3>Grade 11 Subjects</h3>
-                    <h4>First Semester</h4>
-                    <ul id="grade11-firstSemester"></ul>
-                    <h4>Second Semester</h4>
-                    <ul id="grade11-secondSemester"></ul>
+            <!-- Tab Buttons -->
+            <div class="tab-buttons"></div>
 
-                    <h3>Grade 12 Subjects</h3>
-                    <h4>First Semester</h4>
-                    <ul id="grade12-firstSemester"></ul>
-                    <h4>Second Semester</h4>
-                    <ul id="grade12-secondSemester"></ul>
-                </div>
-
-                <!-- College Courses Tab -->
-                <div id="courses-tab" class="tabcontent">
-                    <h3>College Courses</h3>
-                    <ul id="strand-courses"></ul>
-                </div>
-
-                <!-- Related Links Tab -->
-                <div id="links-tab" class="tabcontent">
-                    <h3>Related Links</h3>
-                    <div id="strand-links"></div>
-                </div>
-            </div>
+            <!-- Tab Content -->
+            <div class="tab-content"></div>
         </div>
     </main>
 
     <footer>
         <p>&copy; 2024 UCLM Senior High School</p>
     </footer>
-    
+
     <script src="js/strand-details.js"></script>
 </body>
 </html>
