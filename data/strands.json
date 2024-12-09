@@ -7,31 +7,48 @@
             "subjects": {
                 "grade11": {
                     "firstSemester": [
-                        "Hardware Services",
-                        "Computer-Programming",
-                        "Computer System Services",
-                        "Earth and Life",
-                        "Physical Education 1",
-                        "Reading and Writing"
+                        "Oral Communication",
+                        "General Mathematics",
+                        "Understanding Culture, Society and Politics",
+                        "Earth Science",
+                        "Physical Education and Health 1",
+                        "Organization and Management",
+                        "Personal Development/ Pansariling Kulturang Pilipino",
+                        "Komunikasyon at Pananaliksik sa Wika at Kulturang Pilipino",
+                        "English for Academic and Professional Purposes"
                     ],
                     "secondSemester": [
-                        "Understand Culture, Society and Politics",
+                        "Reading and Writing",
                         "Statistics and Probability",
                         "Physical Science",
-                        "Physical Education 2",
-                        "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik"
+                        "Physical Education and Health 2",
+                        "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik",
+                        "Empowerment Technologies(E-Tech)",
+                        "Business Math",
+                        "Practical Research 1",
+                        "Fundamentals of Accountacy, Business and Management 1"
                     ]
                 },
                 "grade12": {
                     "firstSemester": [
-                        "21st Century",
-                        "General Mathematics",
-                        "Practical Research",
-                        "Oral Communication in Context"
+                        "Pagsulat sa Filipino sa Piling Larangan(Akademik)",
+                        "21st Centurey Literature from the Philippines and the World",
+                        "Introduction to the Philosophy of the Human Person/Pambungod sa Pilosopiya ng Tao",
+                        "Practical Research 2",
+                        "Fundamentals of Accountancy, Business and Management 2",
+                        "Principles of Marketing",
+                        "Business Finance",
+                        "Physical Education and Health 3"
                     ],
                     "secondSemester": [
+                        "Contemporary Philippines Arts from the Regions",
                         "Media and Information Literacy",
-                        "Physical Education 3"
+                        "Applied Economics",
+                        "Entrepreneurship",
+                        "Inquiries,Investigation and Immerion (Research Activity/Culminating Activity)",
+                        "Business Ethics and Social Responsibility",
+                        "Work Immersion/ Research/ Career Advocacy/ Culminating Activity",
+                        "Physical Education 4"
                     ]
                 }
             },
@@ -64,31 +81,46 @@
             "subjects": {
                 "grade11": {
                     "firstSemester": [
-                        "Hardware Services",
-                        "Computer-Programming",
-                        "Computer System Services",
-                        "Earth and Life",
+                        "Oral Communication in Context",
+                        "General Mathematics",
+                        "Komunikasyon at Pananaliksik sa Wika at Kulturang Pilipino",
+                        "Earth Science",
                         "Physical Education 1",
-                        "Reading and Writing"
+                        "Understanding Culture, Society and Politics",
+                        "Introduction to the Philosophy of the Human Person/Pambungod sa Pilosopiya ng Tao",
+                        "Empowerment Technologies(E-Tech)"  
                     ],
                     "secondSemester": [
-                        "Understand Culture, Society and Politics",
+                        "Reading and Writing",
                         "Statistics and Probability",
                         "Physical Science",
-                        "Physical Education 2",
-                        "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik"
+                        "Physical Education and Health 2",
+                        "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik",
+                        "Personal Development/ Pansariling Kaunlaran",
+                        "Organization and Management",
+                        "Entrepreneurship",
+                        "Practical Research 1"
                     ]
                 },
                 "grade12": {
                     "firstSemester": [
-                        "21st Century",
-                        "General Mathematics",
-                        "Practical Research",
-                        "Oral Communication in Context"
+                        "English for Academic and Professional Purposes",
+                        "21st Centurey Literature from the Philippines and the World",
+                        "Disaster Readiness and Risk Reduction",
+                        "Humanities 1 (Trends, Networks and Critical Thinking in the 21st Century Culture)",
+                        "Practical Research 2",
+                        "Philippine Politics and Government",
+                        "Elective 1(Business Math, Principles of Marketing, or Fundamentals of Accountancy and Business Management 1)",
+                        "Physical Education and Health 3"
                     ],
                     "secondSemester": [
                         "Media and Information Literacy",
-                        "Physical Education 3"
+                        "Physical Education 4",
+                        "Pagsulat sa Filipino sa Piling Larangan(Akademik)", 
+                        "Humanities 2 (Creative Writing/Malikhain Pagsulat)",
+                        "Elective 2 (Contact Center Services, or Tour Guiding)",
+                        "Inquiries,Investigation and Immerion (Research Activity/Culminating Activity)",
+                        "Work Immersion/ Research/ Career Advocacy/ Culminating Activity"
                     ]
                 }
             },
@@ -119,31 +151,49 @@
             "subjects": {
                 "grade11": {
                     "firstSemester": [
-                        "Hardware Services",
-                        "Computer-Programming",
-                        "Computer System Services",
-                        "Earth and Life",
-                        "Physical Education 1",
-                        "Reading and Writing"
+                        "Oral Communication",
+                        "English for Academic and Professional Purposes",
+                        "Komunikasyon at Pananaliksik sa Wika at Kulturang Pilipino",
+                        "General Mathematics",
+                        "Earth Science",
+                        "Contemporary Philippine Arts from the Regions",
+                        "Understanding Culture, Society and Politics",
+                        "Empowerment Technologies(E-Tech)",
+                        "Physical Education and Health 1"
                     ],
                     "secondSemester": [
-                        "Understand Culture, Society and Politics",
+                        "Reading and Writing",
+                        "21st Century Literature from the Philippines and the World",
                         "Statistics and Probability",
-                        "Physical Science",
                         "Physical Education 2",
-                        "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik"
+                        "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik",
+                        "Personal Development/ Pansariling Kaunlaran",
+                        "Practical Research 1",
+                        "Introduction to World Religious and Belief Systems",
+                        "Discipline and Ideas in the Social Sciences"
                     ]
+
                 },
                 "grade12": {
                     "firstSemester": [
-                        "21st Century",
-                        "General Mathematics",
-                        "Practical Research",
-                        "Oral Communication in Context"
+                        "Media and Information Literacy",
+                        "Pagsulat sa Filipino sa Piling Larangan(Akademik)",
+                        "Practical Research 2",
+                        "Introduction to the Philosophy of the Human Person/Pambungad sa Pilosopiya ng Tao",
+                        "Creative Writing/ Malikhaing Pagsulat",
+                        "Philippine Politics and Governance",
+                        "Discipline and Ideas in the Applied Social Sciences",
+                        "Physical Education and Health 3"
                     ],
                     "secondSemester": [
-                        "Media and Information Literacy",
-                        "Physical Education 3"
+                        "Creative Nonfiction: The Literary Essay",
+                        "Physical Science",
+                        "Trends, Networks and Critical THinking in the 21st Century Culture",
+                        "Community Engagement, Soliditary and Citizenship",
+                        "Entrepreneurship",
+                        "Inquiries,Investigation and Immerion (Research Activity/Culminating Activity)",
+                        "Work Immersion/ Research/ Career Advocacy/ Culminating Activity",
+                        "Physical Education and Health 4"
                     ]
                 }
             },
@@ -167,31 +217,44 @@
             "subjects": {
                 "grade11": {
                     "firstSemester": [
-                        "Hardware Services",
-                        "Computer-Programming",
-                        "Computer System Services",
-                        "Earth and Life",
-                        "Physical Education 1",
-                        "Reading and Writing"
+                        "Oral Communication",
+                        "Komunikasyon at Pananaliksik sa Wika at Kulturang Pilipino",
+                        "General Mathematics",
+                        "Understanding Culture, Society and Politics",
+                        "Introduction to the Philosophy of the Human Person/Pambungod sa Pilosopiya ng Tao",
+                        "Contemporary Philippine Arts from the Regions",
+                        "Cookery(NC II)",
+                        "Physical Education and Health 2"
                     ],
                     "secondSemester": [
-                        "Understand Culture, Society and Politics",
+                        "Reading and Writing",
+                        "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik",
                         "Statistics and Probability",
-                        "Physical Science",
-                        "Physical Education 2",
-                        "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik"
+                        "Physical Education and Health 2",
+                        "Practical Research 1",
+                        "Empowerment Technologies(E-Tech)",
+                        "Cookery(NC II)",
+                        "Physical Education and Health 2"
                     ]
                 },
                 "grade12": {
                     "firstSemester": [
-                        "21st Century",
-                        "General Mathematics",
+                        "English for Academic and Professional Purposes",
+                        "21st Centurey Literature from the Philippines and the World",
+                        "Earth Science",
                         "Practical Research",
-                        "Oral Communication in Context"
+                        "Entrepreneurship",
+                        "Bread and Pastry Production(NC II)",
+                        "Physical Education and Health 3"
                     ],
                     "secondSemester": [
                         "Media and Information Literacy",
-                        "Physical Education 3"
+                        "Physical Education and Health 4",
+                        "Pagsulat sa Filipino sa Piling Larangan(Tech-Voc)",
+                        "Physical Science",
+                        "Inquiries,Investigation and Immerion (Research Activity/Culminating Activity)",
+                        "Food & Beverage Services (NC II)",
+                        "Industry Immersion"
                     ]
                 }
             },
@@ -215,38 +278,56 @@
             "subjects": {
                 "grade11": {
                     "firstSemester": [
-                        "Hardware Services",
-                        "Computer-Programming",
-                        "Computer System Services",
-                        "Earth and Life",
+                        "Oral Communication",
+                        "Komunikasyon at Pananaliksik sa Wika at Kulturang Pilipino",
+                        "General Mathematics",
+                        "Earth and Life Science",
                         "Physical Education 1",
-                        "Reading and Writing"
+                        "Introduction to the Philosophy of the Human Person/Pambungod sa Pilosopiya ng Tao",
+                        "Empowerment Technologies(E-Tech)",
+                        "Pre-Calculus"
                     ],
                     "secondSemester": [
-                        "Understand Culture, Society and Politics",
+                        "Reading and Writing",
                         "Statistics and Probability",
-                        "Physical Science",
-                        "Physical Education 2",
-                        "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik"
+                        "Physical Science(Disaster Readiness and Risk Reduction)",
+                        "Physical Education and Health 2",
+                        "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik",
+                        "Personal Development/ Pansariling Kaunlaran",
+                        "General Chemistry 1",
+                        "Practical Research 1",
+                        "Basic Calculus"
                     ]
+
                 },
                 "grade12": {
                     "firstSemester": [
-                        "21st Century",
-                        "General Mathematics",
-                        "Practical Research",
-                        "Oral Communication in Context"
+                        "21st Centurey Literature from the Philippines and the World",
+                        "General Chemistry 2",
+                        "General Biology 1",
+                        "Media and Information Literacy",
+                        "English for Academic and Professional Purposes",
+                        "Practical Research 2",
+                        "Pagsulat sa Filipino sa Piling Larangan(Akademik)",
+                        "General Physics 1",
+                        "Physical Education and Health 3"
                     ],
                     "secondSemester": [
-                        "Media and Information Literacy",
-                        "Physical Education 3"
+                        "Contemporary Philippines Arts from the Regions",
+                        "Understand Culture, Society and Politics",
+                        "Entrepreneurship",
+                        "Inquiries,Investigation and Immerion (Research Activity/Culminating Activity)",
+                        "General Physics 2",
+                        "General Biology 2",
+                        "Work Immersion/ Research/ Career Advocacy/ Culminating Activity",
+                        "Physical Education 4"
                     ]
                 }
             },
             "courses": [
-                "Course 1",
-                "Course 2",
-                "Course 3"
+                "Computer Science",
+                "Information Technology",
+                "Software Engineeering"
             ],
             "links": [
                 {
@@ -263,38 +344,56 @@
             "subjects": {
                 "grade11": {
                     "firstSemester": [
-                        "Hardware Services",
-                        "Computer-Programming",
-                        "Computer System Services",
-                        "Earth and Life",
-                        "Physical Education 1",
-                        "Reading and Writing"
+                        "Oral Communication",
+                        "Komunikasyon at Pananaliksik sa Wika at Kulturang Pilipino",
+                        "General Mathematics",
+                        "Understanding Culture, Society and Politics",
+                        "Physical Education and Health 1",
+                        "Introduction to the Philosophy of the Human Person/Pambungod sa Pilosopiya ng Tao",
+                        "Contemporary Philippine Arts from the Regions",
+                        "Contemporary Hardware Servicing (NC II)",
+                        "Computer Programming (NC IV)"
                     ],
                     "secondSemester": [
-                        "Understand Culture, Society and Politics",
+                        "Reading and Writing",
                         "Statistics and Probability",
-                        "Physical Science",
+                        "Practical Research 1",
                         "Physical Education 2",
-                        "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik"
+                        "Pagbabasa at Pagsusuri ng Iba't-ibang Teksto Tungo sa Pananaliksik",
+                        "Contemporary Philippine Arts from the Regions",
+                        "Contemporary Hardware Servicing (NC II)",
+                        "Empowerment Technologies(E-Tech)",
+                        "Personal Development/ Pansariling Kaunlaran"
                     ]
+                
                 },
                 "grade12": {
                     "firstSemester": [
-                        "21st Century",
-                        "General Mathematics",
-                        "Practical Research",
-                        "Oral Communication in Context"
+                        "English for Academic and Professional Purposes",
+                        "21st Centurey Literature from the Philippines and the World",
+                        "Earth Science",
+                        "Practical Research 2",
+                        "Entrepreneurship",
+                        "Contemporary Hardware Servicing (NC II)",
+                        "Empowerment Technologies(E-Tech)",
+                        "Physical Education and Health 3"
                     ],
                     "secondSemester": [
                         "Media and Information Literacy",
-                        "Physical Education 3"
+                        "Physical Education 4",
+                        "Pagsulat sa Filipino sa Piling Larangan(Tech-Voc)",
+                        "Physical Science",
+                        "Inquiries,Investigation and Immerion (Research Activity/Culminating Activity)",
+                        "Contemporary Hardware Servicing (NC II)",
+                        "Empowerment Technologies(E-Tech)",
+                        "Industry Immersion"
                     ]
                 }
             },
             "courses": [
-                "Course 1",
-                "Course 2",
-                "Course 3"
+                "Computer Science",
+                "Information Technology",
+                "Software Engineering"
             ],
             "links": [
                 {
